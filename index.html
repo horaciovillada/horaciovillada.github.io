@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+
+    <link  rel="stylesheet" href="./style.css">
+    <title>HoracioVillada</title>
+    
+</head>
+    <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+    <source src="./imgVideos/Red - 12716.mp4" type="video/mp4">
+    </video>
+    <body>
+        <header id="seccion1">
+            <div class="container">
+                <div class="containerSize" >
+                    <div class="presentacion"><p>Hola, Soy <span class="presentacionNombre">Horacio Villada</span> I'am a Programmer</p></div>
+                    <!-- <button><a href="#seccion2">Ver mis estudios</a></button> -->
+                    <button onclick="slowScroll('#seccion2')">Ver mis estudios</button>
+                    <div ></div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="menuPocision">
+                <div>
+                    <ul>
+                        <li>
+                            <a class="menu servicios" href="#seccion1" data-title="Inicio">
+                                <span>
+                                    <span>Inicio</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="menu proyectos" href="#seccion2" data-title="Conocimiento">
+                                <span>
+                                    <span>Conocimiento</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="menu recursos" href="#seccion3" data-title="Certificados">
+                                <span>
+                                    <span>Certificados</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="menu contacto" href="#seccion4" data-title="Contacto">
+                                <span>
+                                    <span>Contacto</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <div class="miPerfil" >
+            <div class="document" id="seccion2">
+                <div class="document-foto-texto" >
+                    <p data-aos="fade-right" class="titulo-principal">¿Quien soy?</p>
+                    <img class="imgYo" data-aos="zoom-in" data-aos-duration="1500" src="./imgVideos/yo.png" alt="">
+                    <div class="document-text" data-aos="fade-right">
+                        <p>Actualmente trabajo en el area de <span style="color:rgb(0, 41, 177);">desarro</span> en Telemercado y estoy en busqueda de un nuevo trabajo para aprender y mejorar.<br> Me gusta hacer deportes, viajar, estudiar y siempre que tengo un tiempo libre en casa me pongo a programar o a leer sobre temas interesantes</p>    
+                    </div>
+                </div>
+                <div class="container-conocimientos"> 
+                    <!-- <p data-aos="fade-left">Mis conocimientos</p> -->
+                    
+                    <div data-aos="fade-left" data-aos-duration="1500" class="lenguaje">
+                        <p>HTML</p>
+                        <div class="container-barra-porcentaje">
+                            <div data-aos="zoom-in" data-aos-duration="3000" class="barra-porcentaje bp1"></div>
+                        </div>
+                        <div class="porcentaje">
+                            <p>90%</p>
+                        </div>
+                    </div>
+    
+                    <div data-aos="fade-left" data-aos-duration="1500" class="lenguaje">
+                        <p>CSS</p>
+                        <div class="container-barra-porcentaje">
+                            <div data-aos="zoom-in" data-aos-duration="3000" class="barra-porcentaje bp2"></div>
+                        </div>
+                        <div class="porcentaje">
+                            <p>85%</p>
+                        </div>
+                    </div>
+    
+                    <div data-aos="fade-left" data-aos-duration="1500" class="lenguaje">
+                        <p>JavaScript</p>
+                        <div class="container-barra-porcentaje">
+                            <div data-aos="zoom-in" data-aos-duration="3000" class="barra-porcentaje bp3"></div>
+                        </div>
+                        <div class="porcentaje">
+                            <p>60%</p>
+                        </div>
+                    </div>
+    
+                    <div data-aos="fade-left" data-aos-duration="1500" class="lenguaje">
+                        <p>MySql</p>
+                        <div class="container-barra-porcentaje">
+                            <div data-aos="zoom-in" data-aos-duration="3000" class="barra-porcentaje bp4"></div>
+                        </div>
+                        <div class="porcentaje">
+                            <p>60%</p>
+                        </div>
+                    </div>
+    
+                    <div data-aos="fade-left" data-aos-duration="1500" class="lenguaje">
+                        <p>Php</p>
+                        <div class="container-barra-porcentaje">
+                            <div data-aos="zoom-in" data-aos-duration="3000"class="barra-porcentaje bp5"></div>
+                        </div>
+                        <div class="porcentaje">
+                            <p>30%</p>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>      
+        </div>
+        <div class="experiencia-laboral" >
+            <div class="container-el" >
+                <p data-aos="flip-left" data-aos-duration="1500" class="titulo-principal tp-experiencia">Experiencia Laboral</p>
+                <p data-aos="flip-left" data-aos-duration="1500" class="empresa">Desarrollo, Telemercado SRL, Cordoboa Argentina</p>
+                <p data-aos="flip-left" data-aos-duration="1500">Enero 2021 - Presente</p>
+                <p data-aos="flip-left" data-aos-duration="1500" class="text">Mantenimiento base de datos con mysql en php my admin </br>
+                    Desarrollo soluciones para los dferentes clientes de la empresa con back end y front con javascript y php</br>
+                    Desarrollo y mantenimiento de Bots</p>
+                    <p data-aos="flip-left" data-aos-duration="1500">Creacion de vistas, formularios, reportes, gestion de permisos, creacion de entidades y base de datos</p>
+                <div data-aos="flip-left" data-aos-duration="1500">
+                        <p class="empresa">Verticall</p>
+                    <p>Creacion y diseño de Bots como:</p>
+                    <ul>
+                        <li><a class="botEmpesas" href="https://suscripcion.lavoz.com.ar/?gclid=CjwKCAiA2fmdBhBpEiwA4CcHzcAAcWyuxNvpvRig21Fpv0sMWnHFFlt5OqT8HssdQAmdbJpyNqn_choC5-IQAvD_BwE" target="_blank">La voz del interior </a></li>
+                        <p>Es un tipo de bot no lineal capaz de responder a preguntas formuladas en lenguaje natural</p>
+                        <li><a class="botEmpesas" href="https://www.ospesalud.com.ar/" target="_blank">Ospe</a></li>
+                        <p>Es un sistema lineal de consultas.</p>
+                        <li><a class="botEmpesas" href="https://b24-n3lqgr.bitrix24.site/BotElizabeth/" target="_blank"> Elizabeth</a></li>
+                        <p>Es un bot de tipo lineal con informacion de las Ets</p>
+                    </ul>
+                
+                <h3>Estudios</h3>
+                <p> Analista en Sistemas, IES(Siglo 21) Enero 2021- Presente</p>
+            </div>  
+            </div>
+        </div>
+        <!-- <div class="cursosMas">
+            <div id="CursosMas">
+                <img class="imgcurso" src="./imgVideos/cursos/CursoBJ.png" alt="">
+                <img class="imgcurso" src="./imgVideos/cursos/CursoDf.png" alt="">
+                <img class="imgcurso" src="./imgVideos/cursos/CursoDhc.png" alt="">
+                <img class="imgcurso" src="./imgVideos/cursos/CursoPb.png" alt="">
+                <img class="imgcurso" src="./imgVideos/cursos/CursoPfd.png" alt="">
+                <img class="imgcurso" src="./imgVideos/cursos/CursoSm.png" alt="">
+            </div>
+        </div> -->
+        <div class="Cursos" >
+            <!-- <h3>Cursos</h3> -->
+            <!-- <ul>
+                <li>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Platzi.jpg" alt="">
+                    <a id="btnCambiar1" class="cursoPintar" target="_blank" href="https://platzi.com/p/hvillada1999/curso/1050-course/diploma/detalle/"><p id="cambiar1" class="titleCurso">Curso de Programación Básica</p></a>
+                    <img id="tick1" class="funca" src="https://dictionary.cambridge.org/es/images/thumb/check_noun_002_06440.jpg?version=5.0.286" alt="">
+                </li>
+                <li>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Platzi.jpg" alt="">
+                    <a id="btnCambiar2"  class="cursoPintar" target="_blank" href="https://platzi.com/p/hvillada1999/curso/2477-frontend-developer-practico/diploma/detalle/"><p id="cambiar2" >Curso de Frontend Developer</p></a>
+                    <img id="tick2" class="funca" src="https://dictionary.cambridge.org/es/images/thumb/check_noun_002_06440.jpg?version=5.0.286" alt="">
+xridge.org/es/images/thumb/check_noun_002_06440.jpg?version=5.0.286" alt="">
+                </li>
+                <li>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Platzi.jpg" alt="">
+                    <a id="btnCambiar4" class="cursoPintar"  target="_blank" href="https://platzi.com/p/hvillada1999/curso/2008-course/diploma/detalle/"><p id="cambiar4" >Curso Definitivo de HTML y CSS</p></a>
+                    <img id="tick4" class="funca" src="https://dictionary.cambridge.org/es/images/thumb/check_noun_002_06440.jpg?version=5.0.286" alt="">
+                </li>
+                <li>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Platzi.jpg" alt="">
+                    <a id="btnCambiar5"  class="cursoPintar" target="_blank" href="https://platzi.com/p/hvillada1999/curso/1814-basico-javascript/diploma/detalle/"><p id="cambiar5" >Curso Básico de JavaScript</p></a>
+                    <img id="tick5" class="funca" src="https://dictionary.cambridge.org/es/images/thumb/check_noun_002_06440.jpg?version=5.0.286" alt="">
+                </li>
+                <li>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Platzi.jpg" alt="">
+                    <a id="btnCambiar6"  class="cursoPintar" target="_blank" href="https://platzi.com/p/hvillada1999/curso/1272-sql-mysql/diploma/detalle/"><p id="cambiar6" >Curso de Sql y MySql</p></a>
+                    <img id="tick6" class="funca" src="https://dictionary.cambridge.org/es/images/thumb/check_noun_002_06440.jpg?version=5.0.286" alt="">
+                </li>
+            </ul> -->
+                    <div class="carta" id="seccion3">
+                        <img class="imgcurso" src="./imgVideos/cursos/CursoPb.png" alt="">
+                        <h3>Programacion Basica</h3>
+                        <a href="https://platzi.com/p/hvillada1999/curso/1050-course/diploma/detalle/">Link Certidicado</a>
+                    </div>
+                    <div class="carta">
+                        <img class="imgcurso" src="./imgVideos/cursos/CursoDf.png" alt="">
+                        <h3>Frontend Developer</h3>
+                        <a href="https://platzi.com/p/hvillada1999/curso/2477-frontend-developer-practico/diploma/detalle/">Link Certidicado</a>
+                    </div>
+                    <div class="carta">
+                        <img class="imgcurso" src="./imgVideos/cursos/CursoDhc.png" alt="">
+                        <h3>Definitivo de HTML y CSS</h3>
+                        <a href="https://platzi.com/p/hvillada1999/curso/2008-course/diploma/detalle/">Link Certidicado</a>
+                    </div>
+                    <div class="carta">
+                        <img class="imgcurso" src="./imgVideos/cursos/CursoBJ.png" alt="">
+                        <h3>Basico JavaScript</h3>
+                        <a href="https://platzi.com/p/hvillada1999/curso/1814-basico-javascript/diploma/detalle/">Link Certidicado</a>
+                    </div>
+                    <div class="carta">
+                        <img class="imgcurso" src="./imgVideos/cursos/CursoPfd.png" alt="">
+                        <h3>Practico de Frontend Developer</h3>
+                        <a href="https://platzi.com/p/hvillada1999/curso/2477-frontend-developer-practico/diploma/detalle/">Link Certidicado</a>
+                    </div>
+                    <div class="carta">
+                        <img class="imgcurso" src="./imgVideos/cursos/CursoSm.png" alt="">
+                        <h3>SQL y MySQL</h3>
+                        <a href="https://platzi.com/p/hvillada1999/curso/1272-sql-mysql/diploma/detalle/">Link Certidicado</a>
+                    </div>
+        </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </body>
+
+    <script>
+        function slowScroll(id) {
+          var target = document.querySelector(id);
+          var targetPosition = target.getBoundingClientRect().top;
+          var startPosition = window.pageYOffset;
+          var distance = targetPosition - startPosition;
+          var duration = 2000;
+          var start = null;
+          
+          window.requestAnimationFrame(step);
+        
+          function step(timestamp) {
+            if (!start) start = timestamp;
+            var progress = timestamp - start;
+            window.scrollTo(0, easeInOutCubic(progress, startPosition, distance, duration));
+            if (progress < duration) window.requestAnimationFrame(step);
+          }
+        }
+        
+        function easeInOutCubic(t, b, c, d) {
+          t /= d/2;
+          if (t < 1) return c/2*t*t*t + b;
+          t -= 2;
+          return c/2*(t*t*t + 2) + b;
+        }
+        </script>
+
+    <script>
+        AOS.init();
+    </script>
+</html>
+
