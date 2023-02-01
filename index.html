@@ -12,6 +12,7 @@
     <title>HoracioVillada</title>
     
 </head>
+    
     <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
     <source src="./imgVideos/Red - 12716.mp4" type="video/mp4">
     </video>
@@ -27,8 +28,7 @@
             </div>
         </header>
         <main>
-            <div class="menuPocision">
-                <div>
+                <nav class="menuPocision">
                     <ul>
                         <li>
                             <a class="menu servicios" href="#seccion1" data-title="Inicio">
@@ -38,29 +38,28 @@
                             </a>
                         </li>
                         <li>
-                            <a class="menu proyectos" href="#seccion2" data-title="Conocimiento">
+                            <a class="menu proyectos" href="#seccion2" data-title="Perfil">
                                 <span>
-                                    <span>Conocimiento</span>
+                                    <span>Perfil</span>
                                 </span>
                             </a>
                         </li>
                         <li>
-                            <a class="menu recursos" href="#seccion3" data-title="Certificados">
+                            <a class="menu recursos" href="#seccion3" data-title="Experiencia laboral">
+                                <span>
+                                    <span>Experiencia laboral</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="menu contacto" href="#seccion4" data-title="Certificados">
                                 <span>
                                     <span>Certificados</span>
                                 </span>
                             </a>
                         </li>
-                        <li>
-                            <a class="menu contacto" href="#seccion4" data-title="Contacto">
-                                <span>
-                                    <span>Contacto</span>
-                                </span>
-                            </a>
-                        </li>
                     </ul>
-                </div>
-            </div>
+                </nav>
         </main>
         <div class="miPerfil" >
             <div class="document" id="seccion2">
@@ -127,7 +126,7 @@
                 </div>
             </div>      
         </div>
-        <div class="experiencia-laboral" >
+        <div class="experiencia-laboral" id="seccion3">
             <div class="container-el" >
                 <p data-aos="flip-left" data-aos-duration="1500" class="titulo-principal tp-experiencia">Experiencia Laboral</p>
                 <p data-aos="flip-left" data-aos-duration="1500" class="empresa">Desarrollo, Telemercado SRL, Cordoboa Argentina</p>
@@ -163,96 +162,51 @@
                 <img class="imgcurso" src="./imgVideos/cursos/CursoSm.png" alt="">
             </div>
         </div> -->
-        <div class="Cursos" >
-            <!-- <h3>Cursos</h3> -->
-            <!-- <ul>
-                <li>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Platzi.jpg" alt="">
-                    <a id="btnCambiar1" class="cursoPintar" target="_blank" href="https://platzi.com/p/hvillada1999/curso/1050-course/diploma/detalle/"><p id="cambiar1" class="titleCurso">Curso de Programación Básica</p></a>
-                    <img id="tick1" class="funca" src="https://dictionary.cambridge.org/es/images/thumb/check_noun_002_06440.jpg?version=5.0.286" alt="">
-                </li>
-                <li>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Platzi.jpg" alt="">
-                    <a id="btnCambiar2"  class="cursoPintar" target="_blank" href="https://platzi.com/p/hvillada1999/curso/2477-frontend-developer-practico/diploma/detalle/"><p id="cambiar2" >Curso de Frontend Developer</p></a>
-                    <img id="tick2" class="funca" src="https://dictionary.cambridge.org/es/images/thumb/check_noun_002_06440.jpg?version=5.0.286" alt="">
-xridge.org/es/images/thumb/check_noun_002_06440.jpg?version=5.0.286" alt="">
-                </li>
-                <li>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Platzi.jpg" alt="">
-                    <a id="btnCambiar4" class="cursoPintar"  target="_blank" href="https://platzi.com/p/hvillada1999/curso/2008-course/diploma/detalle/"><p id="cambiar4" >Curso Definitivo de HTML y CSS</p></a>
-                    <img id="tick4" class="funca" src="https://dictionary.cambridge.org/es/images/thumb/check_noun_002_06440.jpg?version=5.0.286" alt="">
-                </li>
-                <li>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Platzi.jpg" alt="">
-                    <a id="btnCambiar5"  class="cursoPintar" target="_blank" href="https://platzi.com/p/hvillada1999/curso/1814-basico-javascript/diploma/detalle/"><p id="cambiar5" >Curso Básico de JavaScript</p></a>
-                    <img id="tick5" class="funca" src="https://dictionary.cambridge.org/es/images/thumb/check_noun_002_06440.jpg?version=5.0.286" alt="">
-                </li>
-                <li>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Platzi.jpg" alt="">
-                    <a id="btnCambiar6"  class="cursoPintar" target="_blank" href="https://platzi.com/p/hvillada1999/curso/1272-sql-mysql/diploma/detalle/"><p id="cambiar6" >Curso de Sql y MySql</p></a>
-                    <img id="tick6" class="funca" src="https://dictionary.cambridge.org/es/images/thumb/check_noun_002_06440.jpg?version=5.0.286" alt="">
-                </li>
-            </ul> -->
+        <div class="Cursos" id="seccion4">
+            <h1>Certificados</h1>
+            <div class="linea"></div>
+            <div class="container-fondos">
+                <div class="fondo1"></div>
+                <div class="fondo2"></div>
+            </div>
+            
+                <div class="Cursos-cartas">
                     <div class="carta" id="seccion3">
                         <img class="imgcurso" src="./imgVideos/cursos/CursoPb.png" alt="">
                         <h3>Programacion Basica</h3>
-                        <a href="https://platzi.com/p/hvillada1999/curso/1050-course/diploma/detalle/">Link Certidicado</a>
+                        <a href="https://platzi.com/p/hvillada1999/curso/1050-course/diploma/detalle/">Link Certificado</a>
                     </div>
                     <div class="carta">
                         <img class="imgcurso" src="./imgVideos/cursos/CursoDf.png" alt="">
                         <h3>Frontend Developer</h3>
-                        <a href="https://platzi.com/p/hvillada1999/curso/2477-frontend-developer-practico/diploma/detalle/">Link Certidicado</a>
+                        <a href="https://platzi.com/p/hvillada1999/curso/2477-frontend-developer-practico/diploma/detalle/">Link Certificado</a>
                     </div>
                     <div class="carta">
                         <img class="imgcurso" src="./imgVideos/cursos/CursoDhc.png" alt="">
                         <h3>Definitivo de HTML y CSS</h3>
-                        <a href="https://platzi.com/p/hvillada1999/curso/2008-course/diploma/detalle/">Link Certidicado</a>
+                        <a href="https://platzi.com/p/hvillada1999/curso/2008-course/diploma/detalle/">Link Certificado</a>
                     </div>
                     <div class="carta">
                         <img class="imgcurso" src="./imgVideos/cursos/CursoBJ.png" alt="">
                         <h3>Basico JavaScript</h3>
-                        <a href="https://platzi.com/p/hvillada1999/curso/1814-basico-javascript/diploma/detalle/">Link Certidicado</a>
+                        <a href="https://platzi.com/p/hvillada1999/curso/1814-basico-javascript/diploma/detalle/">Link Certificado</a>
                     </div>
                     <div class="carta">
                         <img class="imgcurso" src="./imgVideos/cursos/CursoPfd.png" alt="">
                         <h3>Practico de Frontend Developer</h3>
-                        <a href="https://platzi.com/p/hvillada1999/curso/2477-frontend-developer-practico/diploma/detalle/">Link Certidicado</a>
+                        <a href="https://platzi.com/p/hvillada1999/curso/2477-frontend-developer-practico/diploma/detalle/">Link Certificado</a>
                     </div>
                     <div class="carta">
                         <img class="imgcurso" src="./imgVideos/cursos/CursoSm.png" alt="">
                         <h3>SQL y MySQL</h3>
-                        <a href="https://platzi.com/p/hvillada1999/curso/1272-sql-mysql/diploma/detalle/">Link Certidicado</a>
+                        <a href="https://platzi.com/p/hvillada1999/curso/1272-sql-mysql/diploma/detalle/">Link Certificado</a>
                     </div>
+                </div>
         </div>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </body>
 
-    <script>
-        function slowScroll(id) {
-          var target = document.querySelector(id);
-          var targetPosition = target.getBoundingClientRect().top;
-          var startPosition = window.pageYOffset;
-          var distance = targetPosition - startPosition;
-          var duration = 2000;
-          var start = null;
-          
-          window.requestAnimationFrame(step);
-        
-          function step(timestamp) {
-            if (!start) start = timestamp;
-            var progress = timestamp - start;
-            window.scrollTo(0, easeInOutCubic(progress, startPosition, distance, duration));
-            if (progress < duration) window.requestAnimationFrame(step);
-          }
-        }
-        
-        function easeInOutCubic(t, b, c, d) {
-          t /= d/2;
-          if (t < 1) return c/2*t*t*t + b;
-          t -= 2;
-          return c/2*(t*t*t + 2) + b;
-        }
-        </script>
+
 
     <script>
         AOS.init();
