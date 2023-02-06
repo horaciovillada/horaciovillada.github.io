@@ -210,10 +210,12 @@ header{
 }
 
 .document{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-  background-color: rgb(243, 243, 243);
+background-color: rgb(243, 243, 243);
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+align-content: center;
 }
 .document {
   padding:4rem;
