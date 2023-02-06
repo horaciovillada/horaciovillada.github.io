@@ -466,4 +466,7 @@ font-family: sans-Serif;
   .lenguaje{
     width: 90%;
     }
+  .container-el {
+    width: 100%;
+  }
 }
