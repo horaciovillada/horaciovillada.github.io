@@ -452,23 +452,19 @@ font-family: sans-Serif;
 
 @media(max-width:900px){
   .lenguaje{
-
     width: 100%;
     margin-bottom: 1.7rem;
     }
-    .containerSize{
-      width: 70%;      
-   }
-   .cambiar-texto p::before {
-    content: "Nuevo texto";
-  }
-  main{
+    /*.containerSize{
+     width: 70%;      
+     }*/
+    main{
     display: none;
-  }
-  .lenguaje{
+    }
+    .lenguaje{
     width: 90%;
     }
-  .container-el {
+    .container-el {
     width: 100%;
   }
 }
