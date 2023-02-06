@@ -409,10 +409,6 @@ height: inherit;
 position: absolute;
 right: calc((100% / 2) - ((100% * 0.57735) / 2));
 }
-}
-.fondo2{
-
-}
 
 .Cursos-cartas{
 display: flex;
