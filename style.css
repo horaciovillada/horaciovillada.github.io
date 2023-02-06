@@ -455,9 +455,9 @@ font-family: sans-Serif;
     width: 100%;
     margin-bottom: 1.7rem;
     }
-    /*.containerSize{
+    .containerSize{
      width: 70%;      
-     }*/
+     }
     main{
     display: none;
     }
