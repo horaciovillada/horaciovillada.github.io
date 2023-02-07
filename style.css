@@ -29,24 +29,26 @@ margin: 0;
 padding: 0;
 }
 .container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;/*como lo pongo absolute no depende de su container entonces si toma el espacio centro*/
+}
+
+.containerSize{
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
-  width: 100%;
-  position: absolute;/*como lo pongo absolute no depende de su container entonces si toma el espacio centro*/
-}
-.containerSize{
-   width: 32rem; 
-  height: 12rem;
-  text-align: center;
-  
 }
 .containerSize button{
   background-color:transparent;
   border: 2px solid rgb(255, 255, 255);
   
+
   padding: 0.2rem;
   margin-top: 0.3rem;
   width: 9rem;
@@ -59,11 +61,17 @@ padding: 0;
   font-weight: 900;
 }
 .presentacion{
-  display: flex;
-  /* font-weight: 600; */
   padding-bottom: 0.2rem;
   color: rgb(255, 255, 255);
   font-size: 2.67rem; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.presentacion p {
+  width: 32rem;
+  text-align: center;
 }
 
 .presentacionNombre{
@@ -71,9 +79,6 @@ padding: 0;
   font-weight: 700;
   text-shadow: 0.1em 0.1em 0.2em rgb(0, 0, 0);
 }
-
-
-/*//////////////////////////////////,MENU//////////////////////////////////////////////////////////////////////////*/
 
 .menu {         
   display: block;
@@ -86,26 +91,6 @@ padding: 0;
   font-family:  sans-Serif;
 
 }
-
-/* Bordes superiores */
-
-/* .menu.servicios { 
-  border-top: #2c2100 0.3em solid;
-}
-
-.menu.recursos { 
-  border-top: #2e0600 0.3em solid;
-}
-
-.menu.proyectos { 
-  border-top: #00250e 0.3em solid;
-}
-
-.menu.contacto { 
-  border-top: #1f0025 0.3em solid;
-} */
-
-/* Atributos y transición */
 
 .menu > span {
   display: block;
@@ -129,8 +114,6 @@ padding: 0;
   color: #fff; 
   content: attr(data-title);
 }
-
-/* velocidad en la que aparece el span */
 
 .menu:hover > span {
   height: 100%; 
@@ -157,10 +140,16 @@ padding: 0;
   main{
     position: sticky;
     top: 0;
-  width: 100%;
+    width: 100%;
     z-index: 10;
   }
-
+  .container-main{
+width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+  }
 
   .menuPocision ul {
     list-style-type: none;
@@ -176,28 +165,6 @@ padding: 0;
   }
 
 
-
-/*//////////////////////////////////,FIN FIN MENU//////////////////////////////////////////////////////////////////////////*/
-/* #right-text {
-position: fixed;
-right: 0;
-top: 50%;
-transform: translate(50%, 50%);
-font-size: 20px;
-padding: 10px 20px;
-background-color: blue;
-color: white;
-border-radius: 5px;
-transition: all 1s ease-in-out;
-display: none;
-}
-#right-text.default {
-display: block;
-right: auto;
-transform: translate(0, -50%);
-} */
-
-/*////////////////////////////*/
 .miPerfil{
 display: flex;
   display: flex;
@@ -245,7 +212,7 @@ font-size: 3rem;
 }
 
 /*////////////////////////////*/
-.container-conocimientos{
+.container-porcentaje{
   margin-top: 0.5rem;
   width: 100%;
   display: flex;
@@ -321,7 +288,6 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-margin-top: -6rem;
 }
 
 .experiencia-laboral ul li{
@@ -346,45 +312,6 @@ color: black;
 .botEmpesas:hover{
 color: rgb(16, 20, 235);
 }
-
-/*////////////////////////////*/
-/* #CursosMas{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-justify-content: center;
-margin-top: 1rem;  
-width: 90%;
-}
-.cursosMas{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-.imgcurso{
-padding: 0%;
-margin: 1%;
-max-width: 20%;
-} */
-/* .Cursos ul{
-display: flex;
-flex-direction: column;
-}
-.Cursos ul li{
-display: flex;
-align-items: center;
-height: 50%;
-}
-.Cursos ul li img{
-width: 4rem;
-}
-.funca{
-width: 20px!important;
-visibility: hidden;
-} */
 .Cursos{
 display: flex;
 flex-direction: column;
@@ -465,6 +392,9 @@ font-family: sans-Serif;
     width: 90%;
     }
     .container-el {
+    width: 100%;
+  }
+  .document{
     width: 100%;
   }
 }
