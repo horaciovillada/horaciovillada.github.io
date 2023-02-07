@@ -194,8 +194,8 @@ flex-wrap: wrap;
 justify-content: space-around;
 align-items: center;
 align-content: center;
-padding: 4rem 4rem 4rem 4rem;
-margin: 1rem 1rem 1rem 1rem;
+padding: 4rem 0rem 4rem 0rem;
+margin: 1rem 0rem 1rem 0rem;
 }
 .document-text{
 width: 70%;
