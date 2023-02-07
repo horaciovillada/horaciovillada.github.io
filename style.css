@@ -445,15 +445,53 @@ footer h4{
   display: flex;
   justify-content: space-between;
 }
+.containerDatos p a{
+  color: rgb(227, 220, 255);
+}
 
 
+.footer-Final{
+  height: 25vh;
+  width: 100%;
+  background-color: rgb(18, 18, 26);
+  margin-top: 4rem;
+}
+.footer-Final img{
+  width: 2.8rem;
+  position: relative;
+  top: -1.5rem;
+  filter: invert(100%);
+  background-color: rgb(207, 168, 145);
+}
+.footer-Final p{
+  background-color: rgb(18, 18, 26);
+  color: rgb(99, 99, 153);
+  padding-bottom: 1rem;
+}
+.redes-sociales{
+  background-color: rgb(18, 18, 26);
+  height: 100%;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+align-content: space-between;
+}
+
+.redes-sociales img{
+  filter: invert(100%);
+  background-color: rgb(189, 189, 189);
+  padding: 0.8rem;
+  margin: 1.5rem;
+  position: relative;
+  bottom: 0;
+}
 @media(max-width:900px){
   .lenguaje{
     width: 100%;
     margin-bottom: 1.7rem;
     }
     .containerSize{
-     width: 70%;      
+     width: 70%;
      }
     main{
     display: none;
@@ -468,5 +506,6 @@ footer h4{
     width: 100%;
   }
 }
+
 
 
