@@ -370,6 +370,8 @@ background-image: url("./imgVideos/fondocarta2.png");
 background-size: cover;
 background-position: center;
 
+/* -webkit-filter:invert(100%); */
+/* filter:invert(%); */
  /* background-color: rgb(161, 161, 209); */
 border-radius: 10%;
   padding: 1rem;
