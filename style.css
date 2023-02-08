@@ -7,14 +7,13 @@ font-family:  sans-Serif;
 scroll-behavior: smooth;
 padding: 0;
 margin: 0;
+/* height: 100vh !important; */
 }
-header{
+ header{
   height: 100vh;
+  width: 30rem;
 }
-html, body {
-  max-width: 100% !important;
-  overflow-x: hidden !important;
-}
+
 head source{
   width: 100vh;
   height: 100vh;
@@ -31,6 +30,10 @@ bottom: 0;
 z-index: -1;
 margin: 0;
 padding: 0;
+}
+video{
+  padding: 0;
+  margin: 0;
 }
 .container{
     align-items: center;
@@ -51,7 +54,7 @@ padding: 0;
 .containerSize button{
   background-color:transparent;
   border: 2px solid rgb(255, 255, 255);
-  
+
 
   padding: 0.2rem;
   margin-top: 0.3rem;
@@ -67,7 +70,7 @@ padding: 0;
 .presentacion{
   padding-bottom: 0.2rem;
   color: rgb(255, 255, 255);
-  font-size: 2.67rem; 
+  font-size: 2.67rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -86,7 +89,7 @@ padding: 0;
   text-shadow: 0.1em 0.1em 0.2em rgb(0, 0, 0);
 }
 
-.menu {         
+.menu {
   display: block;
   position: relative;
   height: 76px;
@@ -101,14 +104,14 @@ padding: 0;
 .menu > span {
   display: block;
   position: absolute;
-  overflow: hidden; 
+  overflow: hidden;
   left: 0;
   top: 0;
   width: 100%;
   height: 0%;
   transition: 0.5s ease-in-out;
   -webkit-transition: 0.5s ease-in-out;
-  
+
 }
 
  .menu:after, .menu > span > span {/*Tamaño de las cajas principales */
@@ -117,12 +120,12 @@ padding: 0;
   border-radius: 0em;
   padding: 0.6rem;
   background: rgb(41, 41, 41);
-  color: #fff; 
+  color: #fff;
   content: attr(data-title);
 }
 
 .menu:hover > span {
-  height: 100%; 
+  height: 100%;
 }
 
 .menu.servicios > span > span {
@@ -141,7 +144,7 @@ padding: 0;
   color: rgb(216, 71, 71);
 }
 
-  /* Dando formato a lista */ 
+  /* Dando formato a lista */
 
   main{
     position: sticky;
@@ -162,7 +165,7 @@ width: 100%;
     margin: 0;
     padding: 0;
     }
-  
+
     .menuPocision li a {
     display: inline;
     float: left;
@@ -198,8 +201,6 @@ flex-wrap: wrap;
 justify-content: space-around;
 align-items: center;
 align-content: center;
-padding: 4rem 0rem 4rem 0rem;
-margin: 1rem 0rem 1rem 0rem;
 }
 .document-text{
 width: 70%;
@@ -289,7 +290,7 @@ background-color: rgb(243, 243, 243);
 padding: 1rem;
 }
 .experiencia-laboral{
-  
+
   margin-top: 2rem;
 height: 100vh;
 display: flex;
@@ -410,7 +411,8 @@ footer h4{
   margin: 3%;
 }
 .imagenContactos{
-  width: 10rem;
+  width: auto;
+  max-width: 11rem;
   -webkit-filter:invert(100%);
   filter:invert(100%);
 }
@@ -418,7 +420,7 @@ footer h4{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center; 
+    justify-content: center;
     align-content: center;
     text-align: center;
     align-items: center;
@@ -506,7 +508,5 @@ align-content: space-between;
     width: 100%;
   }
 }
-
-
 
 
