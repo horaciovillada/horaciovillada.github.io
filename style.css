@@ -200,7 +200,7 @@ margin: 0.5rem;
 }
 
 .document{
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(248 241 255);
   width: 70%;
 display: flex;
 flex-wrap: wrap;
@@ -292,7 +292,7 @@ width: 68%;
 display: flex;
 align-items: center;
 flex-direction: column;
-background-color: rgb(243, 243, 243);
+background-color: rgb(248 241 255);
 padding: 1rem;
 }
 .experiencia-laboral{
