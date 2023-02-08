@@ -132,18 +132,21 @@ video{
   height: 100%;
 }
 
-.menu.servicios > span > span {
+.menu.inicio > span > span {
   color: rgb(216, 71, 71);
 }
 
-.menu.proyectos > span > span {
+.menu.perfil > span > span {
   color: rgb(216, 71, 71);
 }
 
-.menu.recursos > span > span {
+.menu.experiencia > span > span {
   color: rgb(216, 71, 71);
 }
 
+.menu.certificados > span > span {
+  color: rgb(216, 71, 71);
+}
 .menu.contacto > span > span {
   color: rgb(216, 71, 71);
 }
