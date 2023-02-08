@@ -8,6 +8,7 @@ scroll-behavior: smooth;
 padding: 0;
 margin: 0;
 /* height: 100vh !important; */
+background-color: rgb(50, 50, 70);
 }
  header{
   height: 100vh;
@@ -18,10 +19,10 @@ body {
   overflow-x: hidden !important;
 }
 
-head source{
+/* head source{
   width: 100vh;
   height: 100vh;
-}
+} */
 #background-video {
 width: 100vw;
 height: 100vh;
@@ -187,14 +188,12 @@ display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100%;
   margin: 0;
   padding: 0;
 }
 
 .imgYo{
-height: 15rem;
+height: 12rem;
 border-radius: 50%;
 border: 2px solid black;
 margin: 0.5rem;
@@ -334,10 +333,12 @@ flex-direction: column;
 justify-content: space-around;
 align-items: center;
 flex-wrap: wrap;
+background-color: rgb(44, 44, 58);;
 }
+
 h1{
-padding: 1rem;
-color: rgb(107, 107, 107);
+padding: 1.5rem;
+color: rgb(255, 255, 255);
 }
 .linea{
 background-color: rgb(107, 107, 107);
@@ -361,7 +362,8 @@ flex-direction: row;
 justify-content: space-around;
 align-items: center;
 flex-wrap: wrap;
-background-color: rgb(231, 231, 231);
+/* background-color: rgb(231, 231, 231);
+background-color: rgb(50, 50, 70);; */
 }
 .carta{
 background-image: url("./imgVideos/fondocarta2.png");
